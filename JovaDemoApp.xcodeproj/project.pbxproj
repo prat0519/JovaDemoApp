@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D5CA8D1CE7842700E45480 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D5CA8C1CE7842700E45480 /* main.m */; };
+		07D5CA901CE7842700E45480 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D5CA8F1CE7842700E45480 /* AppDelegate.m */; };
+		07D5CA931CE7842700E45480 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D5CA921CE7842700E45480 /* ViewController.m */; };
+		07D5CA961CE7842700E45480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D5CA941CE7842700E45480 /* Main.storyboard */; };
+		07D5CA981CE7842700E45480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D5CA971CE7842700E45480 /* Assets.xcassets */; };
+		07D5CA9B1CE7842700E45480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D5CA991CE7842700E45480 /* LaunchScreen.storyboard */; };
+		07D5CAA61CE7842700E45480 /* JovaDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D5CAA51CE7842700E45480 /* JovaDemoAppTests.m */; };
+		07D5CAB11CE7842700E45480 /* JovaDemoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D5CAB01CE7842700E45480 /* JovaDemoAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07D5CAA21CE7842700E45480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D5CA801CE7842600E45480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D5CA871CE7842600E45480;
+			remoteInfo = JovaDemoApp;
+		};
+		07D5CAAD1CE7842700E45480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D5CA801CE7842600E45480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D5CA871CE7842600E45480;
+			remoteInfo = JovaDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D5CA881CE7842600E45480 /* JovaDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JovaDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D5CA8C1CE7842700E45480 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07D5CA8E1CE7842700E45480 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07D5CA8F1CE7842700E45480 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07D5CA911CE7842700E45480 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07D5CA921CE7842700E45480 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07D5CA951CE7842700E45480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07D5CA971CE7842700E45480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07D5CA9A1CE7842700E45480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07D5CA9C1CE7842700E45480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D5CAA11CE7842700E45480 /* JovaDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JovaDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D5CAA51CE7842700E45480 /* JovaDemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JovaDemoAppTests.m; sourceTree = "<group>"; };
+		07D5CAA71CE7842700E45480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D5CAAC1CE7842700E45480 /* JovaDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JovaDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D5CAB01CE7842700E45480 /* JovaDemoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JovaDemoAppUITests.m; sourceTree = "<group>"; };
+		07D5CAB21CE7842700E45480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D5CA851CE7842600E45480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D5CA9E1CE7842700E45480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D5CAA91CE7842700E45480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D5CA7F1CE7842600E45480 = {
+			isa = PBXGroup;
+			children = (
+				07D5CA8A1CE7842700E45480 /* JovaDemoApp */,
+				07D5CAA41CE7842700E45480 /* JovaDemoAppTests */,
+				07D5CAAF1CE7842700E45480 /* JovaDemoAppUITests */,
+				07D5CA891CE7842600E45480 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07D5CA891CE7842600E45480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D5CA881CE7842600E45480 /* JovaDemoApp.app */,
+				07D5CAA11CE7842700E45480 /* JovaDemoAppTests.xctest */,
+				07D5CAAC1CE7842700E45480 /* JovaDemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D5CA8A1CE7842700E45480 /* JovaDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				07D5CA8E1CE7842700E45480 /* AppDelegate.h */,
+				07D5CA8F1CE7842700E45480 /* AppDelegate.m */,
+				07D5CA911CE7842700E45480 /* ViewController.h */,
+				07D5CA921CE7842700E45480 /* ViewController.m */,
+				07D5CA941CE7842700E45480 /* Main.storyboard */,
+				07D5CA971CE7842700E45480 /* Assets.xcassets */,
+				07D5CA991CE7842700E45480 /* LaunchScreen.storyboard */,
+				07D5CA9C1CE7842700E45480 /* Info.plist */,
+				07D5CA8B1CE7842700E45480 /* Supporting Files */,
+			);
+			path = JovaDemoApp;
+			sourceTree = "<group>";
+		};
+		07D5CA8B1CE7842700E45480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07D5CA8C1CE7842700E45480 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07D5CAA41CE7842700E45480 /* JovaDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				07D5CAA51CE7842700E45480 /* JovaDemoAppTests.m */,
+				07D5CAA71CE7842700E45480 /* Info.plist */,
+			);
+			path = JovaDemoAppTests;
+			sourceTree = "<group>";
+		};
+		07D5CAAF1CE7842700E45480 /* JovaDemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07D5CAB01CE7842700E45480 /* JovaDemoAppUITests.m */,
+				07D5CAB21CE7842700E45480 /* Info.plist */,
+			);
+			path = JovaDemoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07D5CA871CE7842600E45480 /* JovaDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D5CAB51CE7842700E45480 /* Build configuration list for PBXNativeTarget "JovaDemoApp" */;
+			buildPhases = (
+				07D5CA841CE7842600E45480 /* Sources */,
+				07D5CA851CE7842600E45480 /* Frameworks */,
+				07D5CA861CE7842600E45480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JovaDemoApp;
+			productName = JovaDemoApp;
+			productReference = 07D5CA881CE7842600E45480 /* JovaDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07D5CAA01CE7842700E45480 /* JovaDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D5CAB81CE7842700E45480 /* Build configuration list for PBXNativeTarget "JovaDemoAppTests" */;
+			buildPhases = (
+				07D5CA9D1CE7842700E45480 /* Sources */,
+				07D5CA9E1CE7842700E45480 /* Frameworks */,
+				07D5CA9F1CE7842700E45480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D5CAA31CE7842700E45480 /* PBXTargetDependency */,
+			);
+			name = JovaDemoAppTests;
+			productName = JovaDemoAppTests;
+			productReference = 07D5CAA11CE7842700E45480 /* JovaDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07D5CAAB1CE7842700E45480 /* JovaDemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D5CABB1CE7842700E45480 /* Build configuration list for PBXNativeTarget "JovaDemoAppUITests" */;
+			buildPhases = (
+				07D5CAA81CE7842700E45480 /* Sources */,
+				07D5CAA91CE7842700E45480 /* Frameworks */,
+				07D5CAAA1CE7842700E45480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D5CAAE1CE7842700E45480 /* PBXTargetDependency */,
+			);
+			name = JovaDemoAppUITests;
+			productName = JovaDemoAppUITests;
+			productReference = 07D5CAAC1CE7842700E45480 /* JovaDemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D5CA801CE7842600E45480 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Prashant Pandey";
+				TargetAttributes = {
+					07D5CA871CE7842600E45480 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					07D5CAA01CE7842700E45480 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 07D5CA871CE7842600E45480;
+					};
+					07D5CAAB1CE7842700E45480 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 07D5CA871CE7842600E45480;
+					};
+				};
+			};
+			buildConfigurationList = 07D5CA831CE7842600E45480 /* Build configuration list for PBXProject "JovaDemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07D5CA7F1CE7842600E45480;
+			productRefGroup = 07D5CA891CE7842600E45480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D5CA871CE7842600E45480 /* JovaDemoApp */,
+				07D5CAA01CE7842700E45480 /* JovaDemoAppTests */,
+				07D5CAAB1CE7842700E45480 /* JovaDemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D5CA861CE7842600E45480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D5CA9B1CE7842700E45480 /* LaunchScreen.storyboard in Resources */,
+				07D5CA981CE7842700E45480 /* Assets.xcassets in Resources */,
+				07D5CA961CE7842700E45480 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D5CA9F1CE7842700E45480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D5CAAA1CE7842700E45480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D5CA841CE7842600E45480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D5CA931CE7842700E45480 /* ViewController.m in Sources */,
+				07D5CA901CE7842700E45480 /* AppDelegate.m in Sources */,
+				07D5CA8D1CE7842700E45480 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D5CA9D1CE7842700E45480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D5CAA61CE7842700E45480 /* JovaDemoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D5CAA81CE7842700E45480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D5CAB11CE7842700E45480 /* JovaDemoAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D5CAA31CE7842700E45480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D5CA871CE7842600E45480 /* JovaDemoApp */;
+			targetProxy = 07D5CAA21CE7842700E45480 /* PBXContainerItemProxy */;
+		};
+		07D5CAAE1CE7842700E45480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D5CA871CE7842600E45480 /* JovaDemoApp */;
+			targetProxy = 07D5CAAD1CE7842700E45480 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07D5CA941CE7842700E45480 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D5CA951CE7842700E45480 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07D5CA991CE7842700E45480 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D5CA9A1CE7842700E45480 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07D5CAB31CE7842700E45480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07D5CAB41CE7842700E45480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07D5CAB61CE7842700E45480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JovaDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jova.JovaDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07D5CAB71CE7842700E45480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JovaDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jova.JovaDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07D5CAB91CE7842700E45480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JovaDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jova.JovaDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JovaDemoApp.app/JovaDemoApp";
+			};
+			name = Debug;
+		};
+		07D5CABA1CE7842700E45480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JovaDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jova.JovaDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JovaDemoApp.app/JovaDemoApp";
+			};
+			name = Release;
+		};
+		07D5CABC1CE7842700E45480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JovaDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jova.JovaDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JovaDemoApp;
+			};
+			name = Debug;
+		};
+		07D5CABD1CE7842700E45480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JovaDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jova.JovaDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JovaDemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D5CA831CE7842600E45480 /* Build configuration list for PBXProject "JovaDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D5CAB31CE7842700E45480 /* Debug */,
+				07D5CAB41CE7842700E45480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D5CAB51CE7842700E45480 /* Build configuration list for PBXNativeTarget "JovaDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D5CAB61CE7842700E45480 /* Debug */,
+				07D5CAB71CE7842700E45480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07D5CAB81CE7842700E45480 /* Build configuration list for PBXNativeTarget "JovaDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D5CAB91CE7842700E45480 /* Debug */,
+				07D5CABA1CE7842700E45480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07D5CABB1CE7842700E45480 /* Build configuration list for PBXNativeTarget "JovaDemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D5CABC1CE7842700E45480 /* Debug */,
+				07D5CABD1CE7842700E45480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07D5CA801CE7842600E45480 /* Project object */;
+}
